@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    csv (3.3.7)
+    dartsclone (0.3.3)
+    nkf (0.3.0)
+    nokogiri (1.19.7-x86_64-linux-gnu)
+      racc (~> 1.4)
+    racc (1.8.1)
+    suika (0.3.3)
+      csv (>= 3.1.9)
+      dartsclone (>= 0.2.0)
+      nkf (>= 0.1.1)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  nokogiri
+  suika
+
+BUNDLED WITH
+   2.6.9
